@@ -8,3 +8,4 @@ textblob
 pyspellchecker
 gunicorn
 scipy
+huggingface_hub[hf_xet]
