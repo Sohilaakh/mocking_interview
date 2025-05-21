@@ -14,6 +14,7 @@ app = Flask(__name__)
 CORS(app)
 
 os.environ['HUB_DISABLE_SYMLINKS_WARNING'] = '1'
+# model = SentenceTransformer("paraphrase-MinILM-L6-v2")
 model = SentenceTransformer("paraphrase-MinILM-L6-v2")
 spell = SpellChecker()
 
